@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoDrive - Drive Green, Live Clean</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <button id="theme-toggle">Toggle Dark Mode</button>
+    <nav>
+        <div class="logo">
+            <img src="assets/images/ecodrive-logo.png" alt="EcoDrive Logo">
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>EcoDrive</h1>
+        <p>Drive Green, Live Clean</p>
+    </header>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <p>EcoDrive helps you reduce your carbon footprint by providing real-time data on:</p>
+        <ul>
+            <li>EV Charging Stations</li>
+            <li>Carpooling Options</li>
+            <li>Sustainable Transport Routes</li>
+        </ul>
+    </section>
+    <section class="counter">
+        <h2>Our Impact</h2>
+        <p>Total CO2 Saved:</p>
+        <div id="co2-counter">0</div>
+        <p>kilograms</p>
+    </section>
+    <section class="carpool">
+        <h2>Join a Carpool</h2>
+        <form id="carpool-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+    
+            <button type="submit">Sign Up</button>
+        </form>
+        <p id="carpool-message"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 EcoDrive. All rights reserved.</p>
+    </footer>
+</body>
+</html>
